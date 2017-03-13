@@ -1,0 +1,15 @@
+<html ng-app="magic8ball">
+    <!--Angularjs Base Scripts-->
+    <script type="txt/javascript" src="bower_components/angular/angular.js"></script>
+
+    <!--Base Script-->
+    <script type="txt/javascript" src="magic8ball.js"></script>
+    <script type="txt/javascript" src="8ballcontroller.js"></script>
+
+    <body ng-controller="8ballcontroller">
+        <div>
+            <p>Name: <input type="text" ng-model="name"></p>
+            <p ng-bind="name"></p>
+        </div>
+    </body>
+</html>
